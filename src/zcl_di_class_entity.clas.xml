@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DI_CLASS_ENTITY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Depencency Injection Entity</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AS_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create instance of given class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CLASS_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>returns the registered class name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_CONTAINER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>returns the data container with constructor parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>returns the registered instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_SINGLETON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>returns as_singleton attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>sets the instance attribute</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_REGISTRY_ENTRY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Line of class registry entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CLASS_NAME</CMPNAME>
+     <SCONAME>R_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA_CONTAINER</CMPNAME>
+     <SCONAME>RO_DATA_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DI Data Container</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference to registered class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_SINGLETON</CMPNAME>
+     <SCONAME>R_BOOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>boolean</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_INSTANCE</CMPNAME>
+     <SCONAME>IO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference to instance of registered class name</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
