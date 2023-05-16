@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adding classes to the context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ALIAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Alias</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete classes or whole Name space from context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Getting classes from context based on interface or class.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GYS_ALIAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for registered Alias</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GYS_CLASS_REGISTER_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for registered classes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GYT_ALIAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for registered Alias</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GYT_CLASS_REGISTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for registered classes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns true if context is empty for given Name space</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ALIAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>table of registered alias</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_CLASS_REGISTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>table of registered classes</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>IO_DATA_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data container for Constructor parameters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>IO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance to be registered</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>IV_AS_SINGLETON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>use instance as singleton</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name to be registered</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace to be used</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <SCONAME>RO_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class entity object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ALIAS</CMPNAME>
+     <SCONAME>IV_QUERY_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace of DI Context for lookup</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ALIAS</CMPNAME>
+     <SCONAME>IV_TYPENAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of Interface or Base class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IV_ALL_OCCURENCES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete all entries of given Class name or Name space</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name to delete</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name space to delete</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name or interface</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace to look up.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>RO_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class entity object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <SCONAME>IV_NAMEXPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name space to check</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <SCONAME>R_BOOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>True / False</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

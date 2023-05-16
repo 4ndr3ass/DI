@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_PARAMETER_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>build table of Constructor parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clears all or given Contexts(s)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORCE_OPTIONAL_DEPENDENCIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Forces instantiation of optional dependecies if true.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONTAINER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a new or existing DI-Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONTEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>returns the context object of the container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method tries to resolve dependencies.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CLASS_OR_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>check whether requested reference is interface or class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns true if container is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CONTEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object for storing the DI Container Context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_FORCE_OPTIONAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Force optional parameters to be provided</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NAMESPACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace to differ between multiple containers and context</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method registers a class by name.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REGISTER_ALIAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Register Alias</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REGISTER_BY_REFERENCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>This method registers a class by reference.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REGISTER_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Register a class via a given instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNREGISTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete class or whole Name space from Container.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_PARAMETER_TABLE</CMPNAME>
+     <SCONAME>IO_CLASS_DESCRIPTOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RTTS descriptor of class to be instantiated</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_PARAMETER_TABLE</CMPNAME>
+     <SCONAME>IO_DI_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Depencency Injection Entity object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_PARAMETER_TABLE</CMPNAME>
+     <SCONAME>IT_PARAMETERS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Constructor parameters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_PARAMETER_TABLE</CMPNAME>
+     <SCONAME>RT_PARAMETERS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter table for dynamic instantiation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLEAR</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name space to be cleared</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference to DI Container Context object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FORCE_OPTIONAL_DEPENDENCIES</CMPNAME>
+     <SCONAME>IV_VALUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT> force optional params / = only non optional params</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONTAINER</CMPNAME>
+     <SCONAME>IO_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Context where the classes to resolve will be stored.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONTAINER</CMPNAME>
+     <SCONAME>IV_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace to differ between multiple containers and context.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONTAINER</CMPNAME>
+     <SCONAME>RO_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>A new DI-Container</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONTEXT</CMPNAME>
+     <SCONAME>RO_CONTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DI Container Context</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>CO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference which shall be instantiated</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CLASS_OR_INTERFACE</CMPNAME>
+     <SCONAME>E_REFERENCED_TYPE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of referenced class or interface</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CLASS_OR_INTERFACE</CMPNAME>
+     <SCONAME>IO_TYPE_DESCRIPTOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type descriptor of class/interface to be resolved</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CLASS_OR_INTERFACE</CMPNAME>
+     <SCONAME>R_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>True / False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <SCONAME>R_BOOL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>True / False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>IO_DATA_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Container for non-reference constructor parameters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>IV_AS_SINGLETON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>use object as singleton once instantiated</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name to be registered</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>RO_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dependency Injection entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_ALIAS</CMPNAME>
+     <SCONAME>IV_QUERY_NAMESPACE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Namespace of DI Context for lookup</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_ALIAS</CMPNAME>
+     <SCONAME>IV_TYPENAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of Interface or Base class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_BY_REFERENCE</CMPNAME>
+     <SCONAME>IO_CLASS_REF</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unbound reference of the class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_BY_REFERENCE</CMPNAME>
+     <SCONAME>IO_DATA_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Container for non-reference constructor parameters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_BY_REFERENCE</CMPNAME>
+     <SCONAME>IV_AS_SINGLETON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>use object as singleton once instantiated</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_BY_REFERENCE</CMPNAME>
+     <SCONAME>RO_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dependency Injection entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_INSTANCE</CMPNAME>
+     <SCONAME>IO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance to be registered.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER_INSTANCE</CMPNAME>
+     <SCONAME>RO_CLASS_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dependency Injection entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNREGISTER</CMPNAME>
+     <SCONAME>IV_ALL_OCCURENCES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete all entries of given Class name or Name space</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNREGISTER</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name to unregister</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
